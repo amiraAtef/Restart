@@ -57,7 +57,7 @@ class MyBookings extends Component {
               </Text>
             </TouchableHighlight>
           </View>
-          <View style={{ height: responsiveHeight(82), marginTop: "2%" }}>
+          <View style={{ height: responsiveHeight(79), marginTop: "2%" }}>
             <ScrollView>
               <View
                 style={{

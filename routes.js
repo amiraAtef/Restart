@@ -43,7 +43,7 @@ componentDidMount(){
       <NativeRouter>
         <View style={styles.container}>
 
-        <Route exact path="/" component={ Homewithsection } />
+        <Route exact path="/" component={this.state.currentComponent} />
         <Route path="/UserProfile" component={UserProfile} />
         <Route path="/ContinueSignUp" component={ContinueSignUp} />
         <Route path="/Signup" component={Signup} />

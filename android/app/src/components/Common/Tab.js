@@ -11,14 +11,14 @@ class Tab extends Component {
    tabs = [
     {
       key: 'Home',
-      icon: 'user',
+      icon: 'th-large',
       label: 'Home',
       barColor: '#FFFAFA',
       pressColor: 'rgba(250,235,215, 0.16)'
     },
     {
       key: 'Offer',
-      icon: 'user',
+      icon: 'shopping-cart',
       label: 'Offers',
       barColor: '#FFFAFA',
       pressColor: 'rgba(250,235,215,0.16)'
@@ -32,7 +32,7 @@ class Tab extends Component {
     },
      {
       key: 'Settings',
-      icon: 'user',
+      icon: 'ellipsis-h',
       label: 'Settings',
       barColor: '#FFFAFA',
       pressColor: 'rgba(250,235,215, 0.16)'
@@ -74,11 +74,11 @@ class Tab extends Component {
    }
    if(newTab.key=="Home")
    {
-     this.props.history.push('/Homewithsection')
+     this.props.history.push('/FavoriteDay')
    }
    if(newTab.key=="Settings")
    {
-     this.props.history.push('/Homewithsection')
+     this.props.history.push('/MyBookings')
    }
   this.setState({ activeTab: newTab.key })
  }

@@ -21,7 +21,7 @@ ScrollHeight:{
 buttonText:{
     color: "white",
     fontSize: 18,
-    padding:"3%",
+    padding:"1%",
     fontFamily: 'Oxygen-Regular',
  
 },

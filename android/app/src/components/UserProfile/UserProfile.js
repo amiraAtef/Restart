@@ -20,6 +20,7 @@ import {
 import Icon from "react-native-vector-icons/FontAwesome";
 import { GlobalStyles } from "../../global_styles/globalStyles";
 import { Input } from "react-native-elements";
+import Tab from "../Common/Tab";
 const options = {
   title: "Choose Image",
   // customButtons: [{ name: 'fb', title: 'Choose Photo from Facebook' }],
@@ -63,6 +64,7 @@ class UserProfile extends Component {
     console.log(this.state.PickedImage);
 
     return (
+      <View>
       <View style={GlobalStyles.Top_AlginmentCMP}>
         <View style={{ flexDirection: "row", justifyContent: "space-between" }}>
           <Text style={GlobalStyles.title}>Profile</Text>
@@ -94,7 +96,7 @@ class UserProfile extends Component {
             )}
           </View>
         </View>
-        <View style={{ height: responsiveHeight(60), marginTop: "5%" }}>
+        <View style={{ height: responsiveHeight(68), marginTop: "5%" }}>
           <ScrollView>
             <View
               style={{ flexDirection: "row", justifyContent: "space-between" }}
@@ -210,6 +212,8 @@ class UserProfile extends Component {
             </TouchableOpacity>
           </ScrollView>
         </View>
+        </View>
+        <Tab  history={this.props.history} />
       </View>
     );
   }

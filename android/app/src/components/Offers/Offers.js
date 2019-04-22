@@ -10,6 +10,7 @@ import {
   import Header from "../Common/Header";
   import Offer from './Offer'
   import { responsiveHeight } from "react-native-responsive-dimensions";
+import Tab from '../Common/Tab';
 
 class Offers  extends Component {
     state = {  };
@@ -18,9 +19,10 @@ class Offers  extends Component {
       };
     render() {
         return (
+            <View>
             <View style={[GlobalStyles.Top_AlginmentCMP]}>
             <Header history={this.props.history}  Heading="Offers"/>
-            <View style={{ height: responsiveHeight(90), marginTop: "15%" }}>
+            <View style={{ height: responsiveHeight(85), marginTop: "15%" }}>
 
             <ScrollView> 
             <TouchableOpacity
@@ -58,6 +60,8 @@ class Offers  extends Component {
 
             </ScrollView>
             </View>
+            </View>
+            <Tab  history={this.props.history} />
             </View>
         );
     }
