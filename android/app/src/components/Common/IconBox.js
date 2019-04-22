@@ -9,8 +9,8 @@ class IconBox extends Component {
     render() {
         const{icon}=this.props
         return (
-  <View style={{ borderRadius:10, width:104,height:50,borderColor:'#EA8685',borderWidth:1}}>
-<Icon name={`${icon}`} size={42} color="white" style={{alignSelf:'center',paddingTop:4}}/>
+  <View style={{ borderRadius:10, width:"30%",height:"100%",borderColor:'#EA8685',borderWidth:1}}>
+<Icon name={`${icon}`} size={42} color="white" style={{alignSelf:'center',padding:"6%"}}/>
             </View>
         );
     }

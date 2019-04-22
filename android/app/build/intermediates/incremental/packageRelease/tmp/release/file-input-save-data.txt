@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Apr 22 13:21:11 EET 2019
+#Mon Apr 22 16:37:30 EET 2019
 56.path=fonts/Foundation.ttf
 5.base=F\:\\MissDubai\\android\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\release\\0
 42.base=F\:\\MissDubai\\android\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\release\\0

@@ -23,21 +23,21 @@ class  SocialLogin extends Component {
                              
             </View>
 
-<View style={[GlobalStyles.Row_JustifyContent_spaceBetween,{paddingTop:20}]}>
+<View style={[GlobalStyles.Row_JustifyContent_spaceBetween,{paddingTop:"5%"}]}>
     <IconBox icon="facebook-f"/>
     <IconBox icon="twitter"/>
     <IconBox icon="google"/>
 </View>
 <View>
 <TouchableOpacity
-          style={[GlobalStyles.button,{marginTop:30,height:45}]}
+          style={[GlobalStyles.button,{marginTop:"5%",height:45}]}
           onPress={() => this.login()}
           //  onPress={this.onPress}
         >
           <Text style={GlobalStyles.buttonText}>Login With Email</Text>
         </TouchableOpacity>
         <TouchableOpacity
-          style={[GlobalStyles.button,{marginTop:20,
+          style={[GlobalStyles.button,{marginTop:"5%",
           borderColor:"#EA8685",borderWidth:1,
           height:45,backgroundColor: 'transparent'}
 ]}
