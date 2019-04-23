@@ -74,7 +74,9 @@ class Tab extends Component {
    }
    if(newTab.key=="Home")
    {
-     this.props.history.push('/FavoriteDay')
+     //1st time
+     this.props.history.push('/Home')
+    //  this.props.history.push('/FavoriteDay')
    }
    if(newTab.key=="Settings")
    {

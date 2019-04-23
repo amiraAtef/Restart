@@ -20,20 +20,21 @@ import Signup from "./android/app/src/components/Signup/Signup";
 import ContinueSignUp from "./android/app/src/components/Signup/ContinueSignUp";
 import MyBook from "./android/app/src/components/MyBookings/MyBook";
 import UserProfile from "./android/app/src/components/UserProfile/UserProfile";
-
+import HomeWithMap from './android/app/src/components/Home/Homewithmap';
+import Home from "./android/app/src/components/Home/Home";
 
 class Routes extends Component {
   state = {
     currentComponent:Splash,
   };
 
-  swich=()=>{ setTimeout(
+  switch=()=>{ setTimeout(
     () => {
     this.setState({currentComponent:LoginWithSocial})
   }, 1000)
 }
 componentDidMount(){
-  this.swich()
+  this.switch()
 }
   render() {
    
@@ -42,13 +43,13 @@ componentDidMount(){
     return (
       <NativeRouter>
         <View style={styles.container}>
-
-        <Route exact path="/" component={this.state.currentComponent} />
+        <Route exact path="/" component={Home} />
         <Route path="/UserProfile" component={UserProfile} />
         <Route path="/ContinueSignUp" component={ContinueSignUp} />
         <Route path="/Signup" component={Signup} />
-        <Route path="/Homewithsection" component={ Homewithsection} />
-        <Route path="/BottomTabs" component={ BottomTabs} />
+         <Route path="/Homewithsection" component={ Homewithsection} />
+        <Route path="/HomeWithMap" component={ HomeWithMap} />
+        <Route path="/Home" component={ Home} />
         <Route path="/Login" component={Login} />
         <Route exact path="/ForgetPassword" component={ForgetPassword} />
         <Route path="/OfferDetails" component={ OfferDetails} />
@@ -71,8 +72,8 @@ export default Routes;
 
 const styles = StyleSheet.create({
   container: {
-    marginTop: 0,
-    padding: 0,
-    backgroundColor: "#FFF6F6"
+    // marginTop: 0,
+    // padding: 0,
+    // backgroundColor: "#FFF6F6"
   }
 });
