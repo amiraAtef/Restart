@@ -30,12 +30,13 @@ export default class ItemDetails extends React.Component {
     console.log("Pressed", Pressed);
     return (
       <View style={{ flexDirection: "row" }}>
-        <View style={{ width: "14%", right: "10%" }}>
+        <View style={{ width: "15%" }}>
           <Text
             onPress={() => this.ToggleTabs()}
             style={{
               transform: [{ rotate: "-90deg" }],
-              color: "black",
+              color:Pressed?"black":"gray",
+
               top: "20%",
               fontSize: 11
             }}
@@ -49,17 +50,17 @@ export default class ItemDetails extends React.Component {
               transform: [{ rotate: "-90deg" }],
               top: "60%",
               fontSize: 11,
-              color: "black"
+              color:!Pressed?"black":"gray",
             }}
           >
             Photos
           </Text>
         </View>
-        <View style={{ width: "90%" }}>
+        <View style={{ width: "100%" }}>
           <ScrollView horizontal={true}>
             {Pressed ? (
               <View style={{ flexDirection: "row" ,borderRadius:10 }}>
-                <View style={{ padding: "1%", width: 360 }}>
+                <View style={{ padding: "1%", width: 300 }}>
                   <VideoPlayer
                     fullScreenOnLongPress
                     video={{
@@ -69,11 +70,11 @@ export default class ItemDetails extends React.Component {
                     videoWidth={500}
                     videoHeight={300}
                     loop={false}
-                    thumbnail={require("../../main/assets/Images/Logo.png")}
+                    thumbnail={require("../../main/assets/Images/DumyImage.jpg")}
                     //   endWithThumbnail={Platform.OS === 'ios'}
                   />
                 </View>
-                <View style={{ padding: "1%", width: 360 }}>
+                <View style={{ padding: "1%", width: 300 }}>
                   <VideoPlayer
                     fullScreenOnLongPress
                     video={{

@@ -22,7 +22,7 @@ class Offers  extends Component {
             <View>
             <View style={[GlobalStyles.Top_AlginmentCMP]}>
             <Header history={this.props.history}  Heading="Offers"/>
-            <View style={{ height: responsiveHeight(85), marginTop: "15%" }}>
+            <View style={{ height: responsiveHeight(86), marginTop: "15%" }}>
 
             <ScrollView> 
             <TouchableOpacity
@@ -57,11 +57,18 @@ class Offers  extends Component {
             >
 <Offer history={this.props.history}/>
 </TouchableOpacity>
+<View
+style={{height:50}}
+>
 
+</View>
             </ScrollView>
             </View>
             </View>
-            <Tab  history={this.props.history} />
+            <Tab  
+                             position={false}
+
+            history={this.props.history} />
             </View>
         );
     }

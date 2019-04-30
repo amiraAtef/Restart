@@ -11,6 +11,7 @@ import {
 import { GlobalStyles } from "../../global_styles/globalStyles";
 import Reviews from "./Reviews/Reviews";
 import ItemDetails from "../Common/ItemDetails";
+import { responsiveHeight } from "react-native-responsive-dimensions";
 class Event extends Component {
   state = { Pressed: false };
   ToggleTabs = () => {
@@ -18,13 +19,15 @@ class Event extends Component {
       Pressed: !this.state.Pressed
     });
   };
-
+Book=()=>{
+  this.props.history.push('/Booking')
+}
   render() {
     const { Pressed } = this.state;
     console.log("Pressed", Pressed);
     return (
-      <View style={{ marginTop: 70 }}>
-       <ItemDetails/>
+      <View style={{ marginTop: "20%" }}>
+       <ItemDetails />
         <Text
           style={[
             { alignSelf: "center", fontWeight: "bold" },
@@ -34,7 +37,7 @@ class Event extends Component {
         >
           Event name
         </Text>
-        <ScrollView style={{ left: 15, top: 10, height: 300 }}>
+        <ScrollView style={{  height: "75%" }}>
           <Text style={{ fontSize: 16, fontWeight: "bold", color: "black" }}>
             Date/Time
           </Text>
@@ -55,7 +58,7 @@ class Event extends Component {
 
           <TouchableOpacity
             style={GlobalStyles.button}
-            onPress={() => this.login()}
+            onPress={() => this.Book()}
             //  onPress={this.onPress}
           >
             <Text style={GlobalStyles.buttonText}>Book Your Offer</Text>
@@ -63,21 +66,20 @@ class Event extends Component {
           <Text style={[GlobalStyles.title, { marginTop: 10 }]}>Contact</Text>
           <View style={{ flexDirection: "row", textAlign: "center" }}>
             <Text>Send us an email at</Text>
-            <Text style={GlobalStyles.Maincolor}>help@inkdesign.com</Text>
+            <Text style={GlobalStyles.Maincolor}>{`\u00A0help@inkdesign.com`}</Text>
             
           </View>
           <View style={{ flexDirection: "row", textAlign: "center" }}>
 
           <Text> or call us at</Text>
-            <Text style={GlobalStyles.Maincolor}>+20 11 9 11 12 14</Text>
+            <Text style={GlobalStyles.Maincolor}>{`\u00A0+20 11 9 11 12 14`}</Text>
             </View>
 
-          <View style={{marginTop:10}}>
-            <Text>Map</Text>
-            <View style={{ width: 300, top: 30 }}>
+          <ScrollView
+          
+           style={{marginTop:"5%",height:responsiveHeight(65)}}>
               <Reviews />
-            </View>
-          </View>
+          </ScrollView>
         </ScrollView>
       </View>
     );

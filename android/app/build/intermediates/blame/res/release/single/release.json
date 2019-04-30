@@ -304,6 +304,10 @@
         "source": "C:\\Users\\Amira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\9b02cbeac55ada132b2f1be787cfef1c\\res\\drawable-xhdpi\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
+        "merged": "F:\\MissDubai\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_android_app_src_main_assets_images_settings.png.flat",
+        "source": "F:\\MissDubai\\android\\app\\src\\main\\res\\drawable-mdpi\\android_app_src_main_assets_images_settings.png"
+    },
+    {
         "merged": "F:\\MissDubai\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativeratings_src_images_airbnbstar.png.flat",
         "source": "F:\\MissDubai\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativeratings_src_images_airbnbstar.png"
     },
@@ -424,6 +428,10 @@
         "source": "C:\\Users\\Amira\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.1.0.aar\\08c4dc1f34e7b31d31cd52da42326530\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
+        "merged": "F:\\MissDubai\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_android_app_src_main_assets_images_squaremap.png.flat",
+        "source": "F:\\MissDubai\\android\\app\\src\\main\\res\\drawable-mdpi\\android_app_src_main_assets_images_squaremap.png"
+    },
+    {
         "merged": "F:\\MissDubai\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_exo_controls_pause.png.flat",
         "source": "C:\\Users\\Amira\\.gradle\\caches\\transforms-1\\files-1.1\\exoplayer-ui-2.7.3.aar\\aea3402f5f46ff34deff6e2bcfd6ad86\\res\\drawable-xxhdpi-v4\\exo_controls_pause.png"
     },
@@ -450,6 +458,10 @@
     {
         "merged": "F:\\MissDubai\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_exo_controls_fullscreen_enter.png.flat",
         "source": "C:\\Users\\Amira\\.gradle\\caches\\transforms-1\\files-1.1\\exoplayer-ui-2.7.3.aar\\aea3402f5f46ff34deff6e2bcfd6ad86\\res\\drawable-mdpi-v4\\exo_controls_fullscreen_enter.png"
+    },
+    {
+        "merged": "F:\\MissDubai\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_android_app_src_main_assets_images_sectionsimage.png.flat",
+        "source": "F:\\MissDubai\\android\\app\\src\\main\\res\\drawable-mdpi\\android_app_src_main_assets_images_sectionsimage.png"
     },
     {
         "merged": "F:\\MissDubai\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -498,6 +510,10 @@
     {
         "merged": "F:\\MissDubai\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_abc_ab_share_pack_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Amira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\9b02cbeac55ada132b2f1be787cfef1c\\res\\drawable-xxhdpi\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\MissDubai\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_android_app_src_main_assets_images_notification.png.flat",
+        "source": "F:\\MissDubai\\android\\app\\src\\main\\res\\drawable-mdpi\\android_app_src_main_assets_images_notification.png"
     },
     {
         "merged": "F:\\MissDubai\\android\\app\\build\\intermediates\\res\\merged\\release\\layout_abc_list_menu_item_layout.xml.flat",
@@ -644,6 +660,10 @@
         "source": "C:\\Users\\Amira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\9b02cbeac55ada132b2f1be787cfef1c\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
+        "merged": "F:\\MissDubai\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_android_app_src_main_assets_images_homepressed.png.flat",
+        "source": "F:\\MissDubai\\android\\app\\src\\main\\res\\drawable-mdpi\\android_app_src_main_assets_images_homepressed.png"
+    },
+    {
         "merged": "F:\\MissDubai\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_abc_btn_radio_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\Amira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\9b02cbeac55ada132b2f1be787cfef1c\\res\\drawable-xxhdpi\\abc_btn_radio_to_on_mtrl_015.png"
     },
@@ -730,6 +750,10 @@
     {
         "merged": "F:\\MissDubai\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_abc_textfield_search_default_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Amira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\9b02cbeac55ada132b2f1be787cfef1c\\res\\drawable-xhdpi\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\MissDubai\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_android_app_src_main_assets_images_filter.png.flat",
+        "source": "F:\\MissDubai\\android\\app\\src\\main\\res\\drawable-mdpi\\android_app_src_main_assets_images_filter.png"
     },
     {
         "merged": "F:\\MissDubai\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_text_light_normal.xml.flat",
@@ -896,6 +920,10 @@
         "source": "C:\\Users\\Amira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\9b02cbeac55ada132b2f1be787cfef1c\\res\\drawable-mdpi\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
+        "merged": "F:\\MissDubai\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_android_app_src_main_assets_images_settingspressed.png.flat",
+        "source": "F:\\MissDubai\\android\\app\\src\\main\\res\\drawable-mdpi\\android_app_src_main_assets_images_settingspressed.png"
+    },
+    {
         "merged": "F:\\MissDubai\\android\\app\\build\\intermediates\\res\\merged\\release\\layout_dev_loading_view.xml.flat",
         "source": "C:\\Users\\Amira\\.gradle\\caches\\transforms-1\\files-1.1\\react-native-0.55.4.aar\\08adc026a94a812a50d2b6885b320abc\\res\\layout\\dev_loading_view.xml"
     },
@@ -926,6 +954,10 @@
     {
         "merged": "F:\\MissDubai\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_abc_btn_radio_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\Amira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\9b02cbeac55ada132b2f1be787cfef1c\\res\\drawable-hdpi\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "F:\\MissDubai\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_android_app_src_main_assets_images_offerimage.png.flat",
+        "source": "F:\\MissDubai\\android\\app\\src\\main\\res\\drawable-mdpi\\android_app_src_main_assets_images_offerimage.png"
     },
     {
         "merged": "F:\\MissDubai\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
@@ -1056,6 +1088,10 @@
         "source": "C:\\Users\\Amira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\9b02cbeac55ada132b2f1be787cfef1c\\res\\drawable-xxhdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
+        "merged": "F:\\MissDubai\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_android_app_src_main_assets_images_squares.png.flat",
+        "source": "F:\\MissDubai\\android\\app\\src\\main\\res\\drawable-mdpi\\android_app_src_main_assets_images_squares.png"
+    },
+    {
         "merged": "F:\\MissDubai\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_exo_controls_fullscreen_enter.png.flat",
         "source": "C:\\Users\\Amira\\.gradle\\caches\\transforms-1\\files-1.1\\exoplayer-ui-2.7.3.aar\\aea3402f5f46ff34deff6e2bcfd6ad86\\res\\drawable-xxhdpi-v4\\exo_controls_fullscreen_enter.png"
     },
@@ -1098,6 +1134,10 @@
     {
         "merged": "F:\\MissDubai\\android\\app\\build\\intermediates\\res\\merged\\release\\layout_notification_template_lines.xml.flat",
         "source": "C:\\Users\\Amira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\9b02cbeac55ada132b2f1be787cfef1c\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "F:\\MissDubai\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_android_app_src_main_assets_images_offerspressed.png.flat",
+        "source": "F:\\MissDubai\\android\\app\\src\\main\\res\\drawable-mdpi\\android_app_src_main_assets_images_offerspressed.png"
     },
     {
         "merged": "F:\\MissDubai\\android\\app\\build\\intermediates\\res\\merged\\release\\layout_abc_activity_chooser_view_list_item.xml.flat",
@@ -1816,6 +1856,10 @@
         "source": "C:\\Users\\Amira\\.gradle\\caches\\transforms-1\\files-1.1\\react-native-0.55.4.aar\\08adc026a94a812a50d2b6885b320abc\\res\\anim\\catalyst_slide_up.xml"
     },
     {
+        "merged": "F:\\MissDubai\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_android_app_src_main_assets_images_userphoto.png.flat",
+        "source": "F:\\MissDubai\\android\\app\\src\\main\\res\\drawable-mdpi\\android_app_src_main_assets_images_userphoto.png"
+    },
+    {
         "merged": "F:\\MissDubai\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_exo_controls_rewind.png.flat",
         "source": "C:\\Users\\Amira\\.gradle\\caches\\transforms-1\\files-1.1\\exoplayer-ui-2.7.3.aar\\aea3402f5f46ff34deff6e2bcfd6ad86\\res\\drawable-mdpi-v4\\exo_controls_rewind.png"
     },
@@ -1862,6 +1906,10 @@
     {
         "merged": "F:\\MissDubai\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_text_dark_focused.xml.flat",
         "source": "C:\\Users\\Amira\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.1.0.aar\\08c4dc1f34e7b31d31cd52da42326530\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "F:\\MissDubai\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_android_app_src_main_assets_images_userprofilepressed.png.flat",
+        "source": "F:\\MissDubai\\android\\app\\src\\main\\res\\drawable-mdpi\\android_app_src_main_assets_images_userprofilepressed.png"
     },
     {
         "merged": "F:\\MissDubai\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",

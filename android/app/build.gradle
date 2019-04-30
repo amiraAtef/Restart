@@ -97,14 +97,12 @@ android {
       lintOptions {
           abortOnError false
       }
-  //rootProject.ext.compileSdkVersion
     compileSdkVersion 27 
-    //rootProject.ext.buildToolsVersion
     buildToolsVersion "27.0.3" 
     defaultConfig {
         applicationId "com.missdubai"
-         minSdkVersion 16 //rootProject.ext.minSdkVersion
-        targetSdkVersion 26 //rootProject.ext.targetSdkVersion
+         minSdkVersion 16 
+        targetSdkVersion 26 
         versionCode 1
         versionName "1.0"
         ndk {
@@ -161,13 +159,12 @@ dependencies {
  implementation(project(':react-native-maps')){
         exclude group: "com.android.support"
    }
-       //implementation project(':react-native-maps')
     compile project(':react-native-image-picker')
     compile project(':react-native-video')
     compile project(':react-native-vector-icons')
     implementation fileTree(dir: "libs", include: ["*.jar"])
-    //implementation "com.android.support:appcompat-v7:27.1.1"
-      implementation "com.android.support:appcompat-v7:23.0.1"
+    implementation "com.android.support:appcompat-v7:27.1.1"
+     /* implementation "com.android.support:appcompat-v7:23.0.1"*/
     implementation "com.facebook.react:react-native:+"  // From node_modules
 }
 

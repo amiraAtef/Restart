@@ -23,18 +23,20 @@ class Categories extends Component {
     return (
       <View style={GlobalStyles.Top_AlginmentCMP}>
         <Header Heading="Categories" history={this.props.history} />
-        <View style={{ height: responsiveHeight(90), marginTop: "15%" }}>
-          <ScrollView>
+        <View style={{ height: responsiveHeight(90), marginTop: "20%",width:"100%" }}>
+          <ScrollView
+          >
             <TouchableOpacity
               onPress={() => {
                 this.SpaOffers();
+              
               }}
             >
               <ImageOverlay
                 containerStyle={{ width: "99%" }}
                 overlayAlpha={0}
                 height={160}
-                titleStyle={{ fontSize: 30 }}
+                titleStyle={{ fontSize: 24 }}
                 contentPosition="center"
                 title="BEACHCLUBS"
                 rounded={10}
@@ -50,7 +52,7 @@ class Categories extends Component {
                 containerStyle={{ marginTop: "3%", width: "99%" }}
                 overlayAlpha={0}
                 height={160}
-                titleStyle={{ fontSize: 30 }}
+                titleStyle={{ fontSize: 24 }}
                 contentPosition="center"
                 title="SPA"
                 rounded={10}
@@ -66,7 +68,7 @@ class Categories extends Component {
                 containerStyle={{ marginTop: "3%", width: "99%" }}
                 overlayAlpha={0}
                 height={160}
-                titleStyle={{ fontSize: 30 }}
+                titleStyle={{ fontSize: 24}}
                 contentPosition="center"
                 title="RESTAURANT"
                 rounded={10}
@@ -82,7 +84,7 @@ class Categories extends Component {
                 containerStyle={{ marginTop: "3%", width: "99%" }}
                 overlayAlpha={0}
                 height={160}
-                titleStyle={{ fontSize: 30 }}
+                titleStyle={{ fontSize: 24}}
                 contentPosition="center"
                 title="NIGHTCLUBS"
                 rounded={10}

@@ -2,7 +2,7 @@ import { responsiveHeight, responsiveWidth, responsiveFontSize } from 'react-nat
 
 export const styles = {
     verificationSquare:{
-  backgroundColor: '#F4B6A1',
+  backgroundColor: '#FDE9E5',
   width: responsiveWidth(15), height: responsiveHeight(10),
 margin: "2%"
 

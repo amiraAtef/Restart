@@ -22,6 +22,7 @@ import MyBook from "./android/app/src/components/MyBookings/MyBook";
 import UserProfile from "./android/app/src/components/UserProfile/UserProfile";
 import HomeWithMap from './android/app/src/components/Home/Homewithmap';
 import Home from "./android/app/src/components/Home/Home";
+import Reviews from "./android/app/src/components/EventDetails/Reviews/Reviews";
 
 class Routes extends Component {
   state = {
@@ -38,12 +39,11 @@ componentDidMount(){
 }
   render() {
    
-    console.log("currentComponent",this.state.currentComponent)
     // console.log(this.props)
     return (
       <NativeRouter>
         <View style={styles.container}>
-        <Route exact path="/" component={Home} />
+        <Route exact path="/" component={this.state.currentComponent} />
         <Route path="/UserProfile" component={UserProfile} />
         <Route path="/ContinueSignUp" component={ContinueSignUp} />
         <Route path="/Signup" component={Signup} />

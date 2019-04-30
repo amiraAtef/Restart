@@ -14,8 +14,8 @@ import {DatePicker} from 'native-base'
 import { Input } from "react-native-elements";
 import Icon from "react-native-vector-icons/FontAwesome";
 import {GlobalStyles}from '../../global_styles/globalStyles'
-// import RNPickerSelect from 'react-native-picker-select';
 import BackNavigator from '../Common/BackNavigator' 
+import {Content} from 'native-base'
 class ContinueSignUp extends Component {
     constructor(props) {
         super(props);
@@ -39,17 +39,16 @@ class ContinueSignUp extends Component {
         <BackNavigator  history={this.props.history}/>
         <Text style={GlobalStyles.H1}>Your Information </Text>
         <Text style={GlobalStyles.H2}>It’s good to Know each other</Text>
+        <View style={{marginTop:"5%"}}>
         <Input
               onChangeText={value => this.setState({ Nationality: value.trim() })}
               label="Nationality"
               labelStyle={GlobalStyles.lableStyle}
-              leftIcon={<Icon name="circle" size={12} color="black" />}
-              // errorMessage={emailError}
-              style={{ marginTop: "10%" }}
+              leftIcon={<Icon name="user" size={12} color="black" />}
             />
-        <View style={{flexDirection:'row'}}>
-        <Text style={{width:"50%",fontSize:12,color:'black'}}>Country of Residence</Text>
-        <Text style={{width:"50%",fontSize:12,color:'black'}}>City</Text>
+        <View style={{flexDirection:'row',marginTop:"5%",height:30}}>
+        <Text style={{width:"50%",fontSize:12,color:'black',fontWeight: "bold",fontFamily: 'Oxygen-Regular'}}>Country of Residence</Text>
+        <Text style={{width:"50%",fontSize:12,color:'black',fontWeight: "bold",fontFamily: 'Oxygen-Regular'}}>City</Text>
 </View>
 
         <View style={{flexDirection:'row'}}>
@@ -71,10 +70,10 @@ class ContinueSignUp extends Component {
        
 </View>
             <Icon name="angle-down" 
-            style={{alignSelf:'flex-end',top:"7%"}}
+            style={{alignSelf:'flex-end',top:"14%"}}
             size={20}/>
             <Icon name="gift" 
-                        style={{top:"7%"}}
+                        style={{top:"10%"}}
             size={18}/>
 
  <DatePicker
@@ -99,6 +98,7 @@ class ContinueSignUp extends Component {
             >
               <Text  style={GlobalStyles.buttonText}>Submit</Text>
             </TouchableOpacity>
+          </View>
             </View>
         );
     }

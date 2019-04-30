@@ -6,6 +6,7 @@ import { Input, colors } from "react-native-elements";
 import BackNavigator from "../Common/BackNavigator";
 import { LoginStyles } from "./styles";
 class Login extends Component {
+
   state = {
     email: "",
     emailError: "",
@@ -31,7 +32,6 @@ class Login extends Component {
 
   }
   if(password.length>=8 && error){
-    console.log('ssssss')
 this.props.history.push('/FavoriteDay')
   }
     if(password.length < 8)
@@ -56,14 +56,15 @@ this.props.history.push('/FavoriteDay')
 
     return (
       <View style={GlobalStyles.Top_AlginmentCMP}>
-        <BackNavigator  history={this.props.history}/>
+              <BackNavigator history={this.props.history}/>
+
         <Text style={GlobalStyles.H1}>Welcome back </Text>
         <Text style={GlobalStyles.H2}>It’s good to see you again</Text>
-        <View style={{ marginTop:"20%" }}>
+        <View style={{ marginTop:"10%" }}>
           <Input
             onChangeText={value => this.setState({ email: value.trim() })}
             label="Email"
-            labelStyle={LoginStyles.lableStyle}
+            labelStyle={GlobalStyles.lableStyle}
             leftIcon={<Icon name="envelope" size={12} color="black" />}
             errorMessage={emailError}
           />
@@ -75,34 +76,35 @@ this.props.history.push('/FavoriteDay')
               rightIcon={<Icon name="eye" size={12} color="black" />}
               leftIcon={<Icon name="lock" size={12} color="black" />}
               secureTextEntry={true}
-              labelStyle={LoginStyles.lableStyle}
+              labelStyle={GlobalStyles.lableStyle}
               errorMessage={passwordError}
               errorStyle={GlobalStyles.error}
             />
           </View>
         </View>
-        <Text style={{ alignSelf: "flex-end", marginTop: "5%" }}>
+        <Text
+        
+        onPress={()=>{
+          this.props.history.push('/ForgetPassword')
+        }}
+         style={{ alignSelf: "flex-end", marginTop: "2%" ,fontSize:11}}>
           Forget your password
         </Text>
         <TouchableOpacity
-          style={GlobalStyles.button}
+          style={[GlobalStyles.button,{marginTop:"10%"}]}
           onPress={() => this.login()}
           //  onPress={this.onPress}
         >
           <Text style={GlobalStyles.buttonText}>Login</Text>
         </TouchableOpacity>
-        <View
-          style={[GlobalStyles.Row_JustifyContent_Center, { marginTop: "5%"}]}
-        >
-          <View>
-            <Text>Don't have an account ?</Text>
-          </View>
-          <View>
+      
+          <View style={{flexDirection:'row',justifyContent:'center',marginTop:'5%',height:100}}>
+            <Text style={{fontSize:11}}>Don't have an account ?</Text>
             <Text
             onPress={()=>this.register()}
-             style={[GlobalStyles.Maincolor,{marginLeft:"3%"}]}>Register</Text>
+             style={[GlobalStyles.Maincolor,{marginLeft:"3%",fontSize:11}]}>Register</Text>
           </View>
-        </View>
+         
       </View>
     );
   }

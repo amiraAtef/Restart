@@ -30,22 +30,22 @@ class Offer extends Component {
       <View style={{flexDirection:'row',padding:"2%"}}>
       <View
       
-      style={{width:"50%"}}
+      style={{width:"50%",marginTop:"20%"}}
       >
           <Text
       style={{
                color: "white",
-               fontSize: 22,
+               fontSize: 20,
           }}
      >Offer Name</Text>
      </View>
-      <View style={{height:"90%",width:"50%",
+      <View style={{height:"30%",width:"40%",marginTop:"20%",
         borderRadius: 25,
       backgroundColor:'#EA8685'}}>
      <Text
       style={{
                color: "white",
-               fontSize: 22,
+               fontSize: 18,
                textAlign:'center',
 
           }}

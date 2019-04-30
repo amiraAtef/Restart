@@ -20,17 +20,17 @@ goHome=()=>{
       const{confirm}=this.state
     return (
       <View style={GlobalStyles.Top_AlginmentCMP}>
-        <BackNavigator />
+        <BackNavigator  history={this.props.history}/>
         <Text style={GlobalStyles.H1}>Booking </Text>
      {!confirm &&   (<View>
         <View>
-          <Text style={[GlobalStyles.H2, { fontSize: 21 },GlobalStyles.Maincolor]}>
+          <Text style={[GlobalStyles.H2, { fontSize: 18 },GlobalStyles.Maincolor]}>
             Offer Description
           </Text>
           <Text
             style={{
               alignSelf: "center",
-              marginTop: 49,
+              marginTop: "5%",
               width: 350,
               height: 69
             }}
@@ -41,23 +41,20 @@ goHome=()=>{
             accumsan lacus vel facilisis.
           </Text>
           <View
-            style={[
-              GlobalStyles.Row_JustifyContent_spaceBetween,
-              GlobalStyles.H3
-            ]}
+            style={{flexDirection:'row',paddingTop:"5%",justifyContent:'space-between'}}
           >
             <Image
-              style={{ marginLeft: 80 }}
+              style={{ marginLeft:"20%" }}
               source={require("../../main/assets/Images/Minus_circle.png")}
             />
 
             <View>
               <Text style={{ fontSize: 16, fontWeight: "bold",color:'black',  }}>
-                {`${1}`} Persons
+                {`\u00A0\u00A0\u00A0\u00A0${1}\u00A0Persons\u00A0\u00A0\u00A0\u00A0`} 
               </Text>
             </View>
             <Image
-              style={{ marginRight: 80 }}
+              style={{ marginRight: "20%" }}
               source={require("../../main/assets/Images/Add_circle.png")}
             />
           </View>
@@ -66,18 +63,18 @@ goHome=()=>{
           style={{
             borderBottomColor: "black",
             borderBottomWidth: 1,
-            margin: 40
+            margin: "3%"
           }}
         />
 
         <View style={[GlobalStyles.Row_JustifyContent_spaceBetween]}>
-          <View style={{ marginLeft: 40 }}>
-            <Text style={{ fontSize: 16,color:'black', fontWeight: "bold" }}>Price</Text>
+          <View style={{ marginLeft: "20%" }}>
+            <Text style={{ fontSize: 14,fontFamily: 'Oxygen-Regular',color:'black', fontWeight: "bold" }}>Price</Text>
           </View>
-          <View style={{ marginRight: 40 }}>
+          <View style={{ marginRight: "20%"}}>
             <Text
               style={[
-                { fontSize: 16, fontWeight: "bold" },
+                { fontSize: 14, fontWeight: "bold" ,fontFamily: 'Oxygen-Regular',},
                 GlobalStyles.Maincolor
               ]}
             >
@@ -87,22 +84,21 @@ goHome=()=>{
         </View>
 
         <View
-          style={[
-            GlobalStyles.Row_JustifyContent_spaceBetween,
-            { marginTop: 30 }
-          ]}
+          style={
+            {flexDirection:"row",justifyContent:"space-between", marginTop: "10%" }
+          }
         >
           <View
             style={{
-              marginLeft: 40
+              marginLeft: "20%"
             }}
           >
-            <Text style={{ fontSize: 16,color:'black', fontWeight: "bold" }}>Total</Text>
+            <Text style={{ fontSize: 14,color:'black',fontFamily: 'Oxygen-Regular', fontWeight: "bold" }}>Total</Text>
           </View>
-          <View style={{ marginRight: 40 }}>
+          <View style={{ marginRight: "20%" }}>
             <Text
               style={[
-                { fontSize: 16, fontWeight: "bold" },
+                { fontSize: 14, fontWeight: "bold" },
                 GlobalStyles.Maincolor
               ]}
             >
@@ -112,10 +108,15 @@ goHome=()=>{
         </View>
         <TouchableOpacity 
         onPress={()=>this.ToggleConfirm()}
-        style={GlobalStyles.button}>
+        style={[GlobalStyles.button,{marginTop:"10%"}]}>
           <Text style={GlobalStyles.buttonText}>Confirm</Text>
         </TouchableOpacity>
-        </View>)}{
+        </View>)}
+        
+        
+        
+        
+        {
             confirm&&(
                 <View>
             <Text style={GlobalStyles.H2}>{`Confirmation sent to your \n registered email`}</Text>
@@ -128,7 +129,7 @@ goHome=()=>{
             </View>
 
             <TouchableOpacity
-              style={GlobalStyles.button}
+              style={[GlobalStyles.button,{marginTop:"15%"}]}
               onPress={() => this.goHome()}
               //  onPress={this.onPress}
             >

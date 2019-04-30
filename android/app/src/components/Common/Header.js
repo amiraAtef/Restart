@@ -29,7 +29,7 @@ class Header extends Component {
             alignSelf: "center",
             marginLeft: "auto",
             marginRight: "auto",
-            fontSize: 24,
+            fontSize: 20,
             color: "#EA8685"
           }}
         >

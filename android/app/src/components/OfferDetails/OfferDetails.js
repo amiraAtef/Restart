@@ -20,23 +20,28 @@ export default class OfferDetails extends React.Component {
     this.state = {};
   }
 goToBook=()=>{
-  this.props.history.push('/MyBookings')
+  this.props.history.push('/Booking')
 }
   render() {
     return (
       <View style={GlobalStyles.Top_AlginmentCMP}>
         <Header Heading="Offer Details" history={this.props.history} />
         <View style={{ marginTop: "15%" }}>
+        <View style={{marginRight:"10%"}}>
+
           <ItemDetails />
-          <View style={{ height: responsiveHeight(45), marginTop: "5%" }}>
+          </View>
+
+          <View style={{ height: responsiveHeight(55), marginTop: "5%" ,}}>
 <ScrollView >
-          <View >
+          <View style={{marginTop:"2%"}} >
       
             <Text
               style={[
                 GlobalStyles.H2,
                 GlobalStyles.Maincolor,
-                { alignSelf: "center" }
+                { alignSelf: "center" ,fontWeight:'bold'},
+
               ]}
             >
               MONDAY NIGHTCLUBS
@@ -65,6 +70,9 @@ goToBook=()=>{
         >
           <Text style={GlobalStyles.buttonText}>Book Your Offer</Text>
         </TouchableOpacity>
+        <View
+        style={{height:20}}
+        ></View>
         </ScrollView>
         </View>
 

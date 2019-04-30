@@ -8,10 +8,12 @@ import Icon from "react-native-vector-icons/FontAwesome";
 import {GlobalStyles} from "../../global_styles/globalStyles";
 
 class BackNavigator extends Component {
+  constructor(props){
+    super(props)
+  }
     state = {  };
 
     render() {
-
         return (
             <View style={GlobalStyles.Row_alignItems_baseline}>
             <TouchableOpacity 

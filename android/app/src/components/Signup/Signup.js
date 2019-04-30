@@ -14,7 +14,7 @@ import {
   ScrollView,
 } from "react-native";
 import BackNavigator from "../Common/BackNavigator";
-// import { ScrollView } from 'react-native-gesture-handler';
+
 class Signup extends Component {
   constructor(props) {
     super(props);
@@ -68,7 +68,7 @@ class Signup extends Component {
               style={{ marginTop: "10%" }}
             />
             <Input
-              style={{ marginTop:"10%"}}
+              style={{ marginTop:"10%",fontSize:10}}
               placeholder="+966 - 00 - 0000 - 0000"
               placeholderTextColor="black"
               leftIcon={<Icon name="fax" size={12} color="black"/>}
@@ -121,7 +121,7 @@ class Signup extends Component {
               <Text style={{ fontSize: responsiveFontSize(1)}}>
                 By signing up you agreeing to Miss Dubai
               </Text>
-              <Text style={{ fontSize: responsiveFontSize(1)}}>
+              <Text style={[{ fontSize: responsiveFontSize(1)},GlobalStyles.Maincolor]}>
                 Terms and conditions.
               </Text>
             </View>
@@ -142,11 +142,12 @@ class Signup extends Component {
               ]}
             >
               <View>
-                <Text>Don't have an account ?</Text>
+                <Text style={GlobalStyles.lableStyle}>Don't have an account ?</Text>
               </View>
               <View>
-                <Text style={[GlobalStyles.Maincolor, { marginLeft:"5%"}]}>
-                  Register
+                <Text style={[GlobalStyles.Maincolor, { marginLeft:"5%",fontFamily: 'Oxygen-Regular',
+  fontSize: 12,fontWeight: "bold",}]}>
+                  Login
                 </Text>
               </View>
             </View>

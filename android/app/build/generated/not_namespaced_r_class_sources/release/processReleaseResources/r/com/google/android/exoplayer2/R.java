@@ -56,19 +56,19 @@ public final class R {
     public static final class drawable {
         private drawable() {}
 
-        public static final int exo_controls_fastforward = 0x7f06005f;
-        public static final int exo_controls_fullscreen_enter = 0x7f060060;
-        public static final int exo_controls_fullscreen_exit = 0x7f060061;
-        public static final int exo_controls_next = 0x7f060062;
-        public static final int exo_controls_pause = 0x7f060063;
-        public static final int exo_controls_play = 0x7f060064;
-        public static final int exo_controls_previous = 0x7f060065;
-        public static final int exo_controls_repeat_all = 0x7f060066;
-        public static final int exo_controls_repeat_off = 0x7f060067;
-        public static final int exo_controls_repeat_one = 0x7f060068;
-        public static final int exo_controls_rewind = 0x7f060069;
-        public static final int exo_controls_shuffle = 0x7f06006a;
-        public static final int exo_edit_mode_logo = 0x7f06006b;
+        public static final int exo_controls_fastforward = 0x7f06006b;
+        public static final int exo_controls_fullscreen_enter = 0x7f06006c;
+        public static final int exo_controls_fullscreen_exit = 0x7f06006d;
+        public static final int exo_controls_next = 0x7f06006e;
+        public static final int exo_controls_pause = 0x7f06006f;
+        public static final int exo_controls_play = 0x7f060070;
+        public static final int exo_controls_previous = 0x7f060071;
+        public static final int exo_controls_repeat_all = 0x7f060072;
+        public static final int exo_controls_repeat_off = 0x7f060073;
+        public static final int exo_controls_repeat_one = 0x7f060074;
+        public static final int exo_controls_rewind = 0x7f060075;
+        public static final int exo_controls_shuffle = 0x7f060076;
+        public static final int exo_edit_mode_logo = 0x7f060077;
     }
     public static final class id {
         private id() {}

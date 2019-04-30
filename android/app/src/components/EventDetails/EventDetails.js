@@ -10,7 +10,7 @@ class EventDetails extends Component {
         return (
             <View style={GlobalStyles.Top_AlginmentCMP}>
             <Header  history={this.props.history} Heading="Event Details"/>
-            <Event/>
+            <Event  history={this.props.history} />
             </View>            
         );
     }

@@ -20,40 +20,40 @@ ScrollHeight:{
 },
 buttonText:{
     color: "white",
-    fontSize: 18,
-    padding:"1%",
+    fontSize: 13,
+    padding:"3%",
     fontFamily: 'Oxygen-Regular',
  
 },
 title:{
-   fontSize: 16, fontWeight: "bold", color: "black" ,
+   fontSize: 9, fontWeight: "bold", color: "black" ,
    fontFamily: 'Oxygen-bold',
 
 },
 description:{
-  fontSize: 10,
+  fontSize: 9,
    fontFamily: 'Oxygen-Regular',
   color: "white"
 },
 subtitle:{
-  fontSize: 12,
+  fontSize: 10,
   color: "white",
   fontFamily: 'Oxygen-Regular',
 },
 h2:{
-  fontSize: 18,
-  // color: "black" ,
+  fontSize: 14,
+   color: "black" ,
   fontWeight: 'bold',
    fontFamily: 'Oxygen-Regular',
 
 },
 h3:{
-  fontSize: 16,
+  fontSize: 15,
    fontFamily: 'Oxygen-Regular',
   // color: "black" 
 },
 h3Bold:{
-  fontSize: 16,
+  fontSize: 14,
   color: "black" ,
    fontFamily: 'Oxygen-Regular',
   fontWeight: 'bold',
@@ -61,18 +61,18 @@ h3Bold:{
 },
 lableStyle:{
    fontFamily: 'Oxygen-Regular',
-  fontSize: 16,fontWeight: "bold",color:'black'},
+  fontSize: 12,fontWeight: "bold",color:'black'},
 error:{
     fontSize:12, fontWeight: 'bold'
 }
 ,
 Top_AlginmentCMP:{padding:"2%",
 fontFamily: 'Oxygen-Regular',},
-H1:{fontSize: 30,color:"#EA8685",fontWeight: "bold", marginTop:"10%",
+H1:{fontSize: 22,color:"#EA8685",fontWeight: "bold", marginTop:"10%",
 fontFamily: 'Oxygen-Regular',},
-H2:{fontSize: 18,color:'black',
+H2:{fontSize: 14,color:'black',
 fontFamily: 'Oxygen-Regular',},
-H3:{fontSize: 16,fontWeight: "bold",  color: "black",
+H3:{fontSize: 12,fontWeight: "bold",  color: "black",
 fontFamily: 'Oxygen-Regular',},
 Maincolor:{color: "#EA8685"}
 

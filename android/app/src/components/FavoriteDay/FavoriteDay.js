@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Text, View, Image, TouchableOpacity, ScrollView } from "react-native";
+import { Text, View, Image, TouchableOpacity,TouchableHighlight, ScrollView } from "react-native";
 import { styles } from "./styles";
 import { GlobalStyles } from "../../global_styles/globalStyles";
 import Header from "../Common/Header";
@@ -23,64 +23,79 @@ class FavoriteDay extends Component {
         />
         <View style={{ height: responsiveHeight(60), marginTop: "5%" }}>
           <ScrollView>
-            <TouchableOpacity
+            <TouchableHighlight
+          
+            underlayColor= "#EA8685"
               onPress={() => {
                 this.mondayCategories();
+                
               }}
               style={styles.button}
             >
               <Text style={styles.buttonText}>Monday</Text>
-            </TouchableOpacity>
+            </TouchableHighlight>
 
-            <TouchableOpacity
+            <TouchableHighlight
+                        underlayColor= "#EA8685"
+
               onPress={() => {
                 this.mondayCategories();
               }}
               style={styles.button}
             >
               <Text style={styles.buttonText}>Tuesday</Text>
-            </TouchableOpacity>
+            </TouchableHighlight>
 
-            <TouchableOpacity
+            <TouchableHighlight
+                        underlayColor= "#EA8685"
+
               onPress={() => {
                 this.mondayCategories();
               }}
               style={styles.button}
             >
               <Text style={styles.buttonText}>wednesday</Text>
-            </TouchableOpacity>
-            <TouchableOpacity
+            </TouchableHighlight>
+            <TouchableHighlight
+                        underlayColor= "#EA8685"
+
               onPress={() => {
                 this.mondayCategories();
               }}
               style={styles.button}
             >
               <Text style={styles.buttonText}>Thursday</Text>
-            </TouchableOpacity>
-            <TouchableOpacity
+            </TouchableHighlight>
+            <TouchableHighlight
+                        underlayColor= "#EA8685"
+
               onPress={() => {
                 this.mondayCategories();
               }}
               style={styles.button}
             >
               <Text style={styles.buttonText}>Friday</Text>
-            </TouchableOpacity>
-            <TouchableOpacity
+            </TouchableHighlight>
+            <TouchableHighlight
+                        underlayColor= "#EA8685"
+
               onPress={() => {
                 this.mondayCategories();
               }}
               style={styles.button}
             >
               <Text style={styles.buttonText}>Saturday</Text>
-            </TouchableOpacity>
-            <TouchableOpacity
+            </TouchableHighlight>
+            <TouchableHighlight
+                        underlayColor= "#EA8685"
+
               onPress={() => {
                 this.mondayCategories();
               }}
               style={styles.button}
             >
               <Text style={styles.buttonText}>Sunday</Text>
-            </TouchableOpacity>
+            </TouchableHighlight>
           </ScrollView>
         </View>
       </View>

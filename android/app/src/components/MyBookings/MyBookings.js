@@ -114,14 +114,14 @@ class MyBookings extends Component {
                 <MyBook />
               </View>
               <View
-              style={{
-                height:50
-              }}
-              ></View>
+                style={{
+                  height: 50
+                }}
+              />
             </ScrollView>
           </View>
         </View>
-        <Tab history={this.props.history} />
+        <Tab position={false} history={this.props.history} />
       </View>
     );
   }
